@@ -2,7 +2,7 @@
 
 Some open-source keyboard, such as GH60, is interestring. However, they can also be hackable if users are trying to flash from something they know completely nothing about it.
 
-This "YublKey" **(not YubiKey!)** will try to modify *tmk_keyboard*, a famous open-source keyboard firmware project. I have added a keylogger into the internal RAM of it, and once accepted appropiate input, it will output all internal RAM contents out.
+This "YublKey" **(not YubiKey!)** will try to modify *tmk_keyboard*, a famous open-source keyboard firmware project. Once you have pressed "App" key, it will print out the flag. Check git commit log for changes, which is pretty simple.
 
 The target is GH60 (using ATMega32u4, which has a config file in IDA) with only 2Kbytes of SRAM so we need to use it wisely.
 
